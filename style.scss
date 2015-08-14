@@ -19,6 +19,19 @@ h2 {
     margin: 0;
 }
 
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    margin: 0;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+    font-weight: 200;
+    margin: 0;
+}
+
 div#header {
     text-align: center;
     color: white;
@@ -30,7 +43,7 @@ div#header {
     position: relative;
     
     div#mezzo-and-logo {
-        padding-top: 8%;
+        padding-top: 7%;
         padding-bottom: 1%;
     }
     
@@ -53,5 +66,32 @@ div#header {
         left: 0; right: 0;
         margin: 0 auto;
         bottom: 0%;
+    }
+}
+
+div#contact {
+    padding-top: 5%; padding-bottom: 5%;
+    background-color: #455A64;
+    color: white;
+    text-align: center;
+    
+    h3 {
+        padding-bottom: 4%;
+        padding-left: 15%; padding-right: 15%
+    }
+    
+    p#prompt {
+        padding-bottom: .5%;
+        font-size: 1.7em;
+        color: #B0BEC5;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #B0BEC5;
+        
+        &:hover {
+            background-color: #546E7A;
+        }
     }
 }

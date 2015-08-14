@@ -18,6 +18,19 @@ h2 {
   margin: 0; }
 
 /* line 22, /Users/clairehuang/Sites/mezzo landing page/team-mezzo.github.io/style.scss */
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 2em;
+  margin: 0; }
+
+/* line 28, /Users/clairehuang/Sites/mezzo landing page/team-mezzo.github.io/style.scss */
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.3em;
+  font-weight: 200;
+  margin: 0; }
+
+/* line 35, /Users/clairehuang/Sites/mezzo landing page/team-mezzo.github.io/style.scss */
 div#header {
   text-align: center;
   color: white;
@@ -25,27 +38,52 @@ div#header {
   height: 100%;
   width: 100%;
   position: relative; }
-  /* line 32, /Users/clairehuang/Sites/mezzo landing page/team-mezzo.github.io/style.scss */
+  /* line 45, /Users/clairehuang/Sites/mezzo landing page/team-mezzo.github.io/style.scss */
   div#header div#mezzo-and-logo {
-    padding-top: 8%;
+    padding-top: 7%;
     padding-bottom: 1%; }
-  /* line 37, /Users/clairehuang/Sites/mezzo landing page/team-mezzo.github.io/style.scss */
+  /* line 50, /Users/clairehuang/Sites/mezzo landing page/team-mezzo.github.io/style.scss */
   div#header h1 {
     display: inline-block;
     margin-left: 2%; }
-  /* line 42, /Users/clairehuang/Sites/mezzo landing page/team-mezzo.github.io/style.scss */
+  /* line 55, /Users/clairehuang/Sites/mezzo landing page/team-mezzo.github.io/style.scss */
   div#header img#logo {
     height: 4.5em; }
-  /* line 46, /Users/clairehuang/Sites/mezzo landing page/team-mezzo.github.io/style.scss */
+  /* line 59, /Users/clairehuang/Sites/mezzo landing page/team-mezzo.github.io/style.scss */
   div#header img#app-store {
     height: 3.5em;
     padding-top: 2%; }
-  /* line 51, /Users/clairehuang/Sites/mezzo landing page/team-mezzo.github.io/style.scss */
+  /* line 64, /Users/clairehuang/Sites/mezzo landing page/team-mezzo.github.io/style.scss */
   div#header img#screenshot {
     position: absolute;
     left: 0;
     right: 0;
     margin: 0 auto;
     bottom: 0%; }
+
+/* line 72, /Users/clairehuang/Sites/mezzo landing page/team-mezzo.github.io/style.scss */
+div#contact {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #455A64;
+  color: white;
+  text-align: center; }
+  /* line 78, /Users/clairehuang/Sites/mezzo landing page/team-mezzo.github.io/style.scss */
+  div#contact h3 {
+    padding-bottom: 4%;
+    padding-left: 15%;
+    padding-right: 15%; }
+  /* line 83, /Users/clairehuang/Sites/mezzo landing page/team-mezzo.github.io/style.scss */
+  div#contact p#prompt {
+    padding-bottom: .5%;
+    font-size: 1.7em;
+    color: #B0BEC5; }
+  /* line 89, /Users/clairehuang/Sites/mezzo landing page/team-mezzo.github.io/style.scss */
+  div#contact a {
+    text-decoration: none;
+    color: #B0BEC5; }
+    /* line 93, /Users/clairehuang/Sites/mezzo landing page/team-mezzo.github.io/style.scss */
+    div#contact a:hover {
+      background-color: #546E7A; }
 
 /*# sourceMappingURL=style.css.map */
