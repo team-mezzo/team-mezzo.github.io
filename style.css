@@ -1,0 +1,51 @@
+/* line 3, /Users/clairehuang/Sites/mezzo landing page/team-mezzo.github.io/style.scss */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0; }
+
+/* line 9, /Users/clairehuang/Sites/mezzo landing page/team-mezzo.github.io/style.scss */
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 5.3em;
+  margin: 0;
+  font-weight: 400; }
+
+/* line 16, /Users/clairehuang/Sites/mezzo landing page/team-mezzo.github.io/style.scss */
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 2.2em;
+  margin: 0; }
+
+/* line 22, /Users/clairehuang/Sites/mezzo landing page/team-mezzo.github.io/style.scss */
+div#header {
+  text-align: center;
+  color: white;
+  background-color: #3AC279;
+  height: 100%;
+  width: 100%;
+  position: relative; }
+  /* line 32, /Users/clairehuang/Sites/mezzo landing page/team-mezzo.github.io/style.scss */
+  div#header div#mezzo-and-logo {
+    padding-top: 8%;
+    padding-bottom: 1%; }
+  /* line 37, /Users/clairehuang/Sites/mezzo landing page/team-mezzo.github.io/style.scss */
+  div#header h1 {
+    display: inline-block;
+    margin-left: 2%; }
+  /* line 42, /Users/clairehuang/Sites/mezzo landing page/team-mezzo.github.io/style.scss */
+  div#header img#logo {
+    height: 4.5em; }
+  /* line 46, /Users/clairehuang/Sites/mezzo landing page/team-mezzo.github.io/style.scss */
+  div#header img#app-store {
+    height: 3.5em;
+    padding-top: 2%; }
+  /* line 51, /Users/clairehuang/Sites/mezzo landing page/team-mezzo.github.io/style.scss */
+  div#header img#screenshot {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0%; }
+
+/*# sourceMappingURL=style.css.map */
